@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +8,29 @@
     <link href="style.css" rel="stylesheet" type="text/css">
     <script src="java.js"></script>
 </head>
+
 <body>
-    <div>
-        <h1>BMI Calculator</h1>
-        <p class="text">Height</p>
-        <input type="text" id="h">
-        <p class="text">Weight</p>
-        <input type="text" id="w">
-        <p id="result"></p>
-        <button id="btn" onclick="BMI(), play1()">Calculate</button>
-        <p id="info">Please enter you height [cm] and weight [kg]</p>  
-   </div> 
+    <main>
+        <div>
+            <h1>BMI Calculator</h1>
+            <div>
+                <p class="text">Height</p>
+                <input type="text" id="h">
+                <p class="text">Weight</p>
+                <input type="text" id="w">
+                <p>
+                    <input type="radio" name="sex" id="man" value="0">
+                    <label class="sex" for="sex">Man</label>
+
+                    <input type="radio" name="sex" id="woman" value="1">
+                    <label class="sex" for="sex">Woman</i></label>
+                </p>
+                <p id="result"></p>
+                <button id="btn" onclick="BMI(), play1()">Calculate</button>
+                <p id="info">Please enter you height [cm] and weight [kg]</p>
+
+            </div>
+    </main>
 </body>
+
 </html>

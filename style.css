@@ -30,7 +30,7 @@ h1{
     margin-left: 150px;
 }
 
-#w, #h{
+#w, #h, #y{
     color: black;
     text-align: left;
     font-size: 20px;
@@ -39,7 +39,7 @@ h1{
     width: 200px;
 }
 
-#w:focus, #h:focus{
+#w:focus, #h:focus, #y:focus{
     border-bottom: 2px solid darkgoldenrod;
     width: 300px;
     transition: 0.5s;
@@ -73,4 +73,14 @@ h1{
 #result{
     font-weight: bold;
     font-size: 20px;
+}
+
+#man, #woman{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sex{
+    font-size: 15px;
+    font-weight: bold;
 }
